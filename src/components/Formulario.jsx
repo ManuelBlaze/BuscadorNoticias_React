@@ -21,7 +21,7 @@ const Formulario = ({setCategoria}) => {
     //Submit al Form, pasar a App
     const buscarNoticias = (e) => {
         e.preventDefault();
-        
+
         setCategoria(categoria);
 
     }
@@ -50,7 +50,7 @@ const Formulario = ({setCategoria}) => {
 }
 
 Formulario.propTypes = {
-    // setCategotia: PropTypes.func.isRequired
+    setCategoria: PropTypes.func.isRequired
 }
 
 export default Formulario
